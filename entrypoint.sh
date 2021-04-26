@@ -1,3 +1,3 @@
 #! /bin/sh
 
-ruby test.rb $token
+ruby /test.rb $token
