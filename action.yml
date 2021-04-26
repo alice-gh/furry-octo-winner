@@ -1,0 +1,13 @@
+# action.yml
+name: 'Env test'
+description: 'env test'
+inputs:
+  token:  # id of input
+    description: 'some token'
+    required: true
+    default: 'test-token'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
