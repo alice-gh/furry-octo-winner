@@ -5,4 +5,4 @@ FROM ruby:3.0.1-alpine3.13
 COPY test.rb test.rb
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-CMD ["./test.rb"]
+CMD ["ruby", "./test.rb"]
