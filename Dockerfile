@@ -6,4 +6,4 @@ COPY . /
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 #CMD ["ruby", "./test.rb"]
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
