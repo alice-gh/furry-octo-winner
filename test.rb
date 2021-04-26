@@ -1,4 +1,4 @@
 puts "**** path"
-puts ENV['path']
+puts ENV['PATH']
 puts "**** token"
 puts ENV['token']
